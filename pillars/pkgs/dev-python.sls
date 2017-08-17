@@ -1,6 +1,5 @@
 pkgs:
   - ipython
-  - ipython-notebook
   - ipython2
   - jupyter
   - jupyter-notebook
