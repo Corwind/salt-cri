@@ -15,6 +15,5 @@ pkgs:
   - openjdk8-doc
   - llvm
   - java-openjfx
-  - havm-git
   - scala
   - intel-tbb

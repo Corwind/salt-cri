@@ -1,7 +1,14 @@
 pkgs:
   - ipython
+  - ipython-notebook
+  - ipython2
   - jupyter
+  - jupyter-notebook
+  - bpython
+  - bpython2
   - mathjax
-  - python
   - python2
-  - python-pip
+  - python2-pip
+  - python2-virtualenv
+  - emacs-python-mode
+  - pycharm-professional

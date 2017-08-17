@@ -39,6 +39,7 @@ pkgs:
   - texlive-core
   - xorg-xeyes
   - zenity
+  - termite
 
   # pdf reader
   - evince
