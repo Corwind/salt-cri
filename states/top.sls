@@ -8,21 +8,7 @@ base:
   G@'os:Arch':
     - meta.os.archlinux
 
-  'pie-archlinux-*':
-    - meta.pie
-    - meta.xorg
-    - display.wm.xfce
-
-  'sup-archlinux-*':
-    - meta.pie
-    - meta.xorg
-    - display.wm.xfce
-
-  'browser-archlinux-*':
-    - meta.xorg
-    - auth.autologin
-
-  'coding-archlinux-*':
+  'gcc-prologin-*':
     - meta.pie
     - meta.xorg
     - display.wm.xfce
