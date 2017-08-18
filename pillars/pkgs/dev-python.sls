@@ -10,4 +10,5 @@ pkgs:
   - python2-pip
   - python2-virtualenv
   - emacs-python-mode
-  - pycharm-professional
+  #- pycharm-professional
+  - python-pygame

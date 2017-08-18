@@ -5,6 +5,7 @@ base:
 
   'gcc-prologin-*':
     - main.archlinux
+    - pkgs.coding
     - pkgs.xorg
     - pkgs.desktop
     - pkgs.dev

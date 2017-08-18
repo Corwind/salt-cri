@@ -17,5 +17,5 @@ users:
 
 salt-minion-prefix: archlinux
 
-sddm-title: "--- Arch Linux ---"
+sddm-title: "Girls Can Code!"
 sddm-footer: "build: {{ "now"|strftime("%y%m%d-%H%m") }}"

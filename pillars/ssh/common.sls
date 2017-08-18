@@ -17,6 +17,19 @@ openssh:
         present: True
         enc: ssh-rsa
         name: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjP773kL8olTsi6RZFgWLTRTb1fwGzc4mD7jSnAAI1DKDamaL/+UUoWBGi8MEzpz9p5BNCPt0WxnFHoF4wq3EQsl7FgnEKcXkCBBbabUNQ5lGdK3cAZz26QpceqcAbToNU3S/GiVjwEcROlF/Q9ZI9swHuG0lfQ3+qqarFzCIEJC+1kRvrRDQZJImcuf2uhGkMwDSagg6S7ySMfMilBIqZqAWrB5UVEQQMAL23209h159Iyu+eZjKkjcUghyRnJkgFvWQAvlx6aXk+al5awMfXMSY7lSOI57L2SV+xN5CkiSytEuSpTKfVjrt3IrlkE2acyTQg/h2bEvxmvUlAkJwMsFJnHBKnNWQB39zV58Xy5yessmaMCYzPcGIWGZvk/SGEvi7l3kn36Tnj71+fkru5YeSdmZQmHFvWsfMM1N17u4aY8g4kect8hMPW014dJpi/AljH9F73rV8c6yrbCKVZkwxguV+j6JhkW6bA3cQXMSlhIDuK161DJ8cPtd7ZLW7FEO1iGjSuVrTPyzJx2WaSrNISS07BIItis1FVDSAJ74FtbYnWcGmBnZmjYHbwDjAG+uXFGhaWxrGkLxtR0h3U8SmMuoudZzh7ThVy55GkBOH1YzP+XHC2AIOq3ubvmhH2/aazdWnSQVc0ydVQs1VVD0AgXweGjUS6uzjmrp7Jgw== bardou_a@epita.fr"
+
+    tobast_gcc_key:
+      - user: root
+        present: True
+        enc: ssh-ed25519
+        name: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMyQwoqd8G9ZPRo5MNA6UzW8Pnfkh+Fkh7+MowlVFzmk tobast@tobast-laptop"
+
+    corwin_gcc_key:
+      - user: root
+        present: True
+        enc: ssh-rsa
+        name: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSAAgdXi37D6X1ilnEiiTPGk5RvVXExnR6GQLRsmTAUKodzrcEJ1ymeHe+Bz/mBotWIAUMWzKxC+hpeHtmnAsrTeFXb+0zot6SERU01SE9ZrgKCvZX092arLmiMqxXLkZGJXHCAtDt6mQqqt/v1i9m97KUEAXiC28fG9cbyXGF+oY7yw99XvtSIOlqPM7NkctAEiAlFVkudkvej/augiaPVs73ak6vsJQnMb73YBuadpOMDNe/KRxnlLpBFo2yDmCAbDwFzXHxsRjN2WUFkhJwteXtKUI4NpVxK+7LY5WhcJB8T+YdfKVwHXMOcZ7ShRoU69v5HJ317YF5NgOhtIYz corwin@korriban"
+
   provide_ecdsa_keys: True
   provide_rsa_keys: True
   ecdsa:

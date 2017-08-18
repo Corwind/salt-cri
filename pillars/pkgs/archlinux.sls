@@ -1,19 +1,9 @@
 pkgs:
-  - apache-toree
-  - glade
-  - gtkspell
-  - php
   - postgresql
   - python-psycopg2
-  - mono
-  - mono-debugger
-  - mono-tools
-  - mariadb
   - jdk8-openjdk
   - glu
   - gradle
   - openjdk8-doc
   - llvm
-  - java-openjfx
-  - scala
   - intel-tbb
