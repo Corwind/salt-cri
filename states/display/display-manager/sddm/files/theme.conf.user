@@ -1,4 +1,0 @@
-[General]
-logo={{ salt['pillar.get']('sddm-logo', 'epita.png') }}
-title="{{ pillar.get('sddm-title') }}"
-footer="{{ pillar.get('sddm-footer') }}"
