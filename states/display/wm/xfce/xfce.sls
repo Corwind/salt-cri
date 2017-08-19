@@ -34,7 +34,7 @@ display-wm-xfce-install:
 display-wm-xfce-wallpaper:
   file.managed:
     - name: /usr/share/backgrounds/xfce/xfce-teal.jpg
-    - source: {{ salt['pillar.get']('xfce-background') }}
+    - source: {{ salt['pillar.get']('i3_background') }}
     - skip_verify: True
     - require:
       - pkg: display-wm-xfce-install

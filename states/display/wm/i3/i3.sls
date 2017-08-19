@@ -27,7 +27,7 @@ windows-manager-i3-configure-background:
 display-wm-i3-configure-setbackground:
   file.prepend:
     - name: /etc/i3/config
-    - text: "exec --no-startup-id feh --bg-scale /etc/i3/background.jpg"
+    - text: "exec --no-startup-id feh --bg-fill /etc/i3/background.jpg"
     - require:
       - file: windows-manager-i3-configure-background
       - pkg: display-wm-i3-install
@@ -35,7 +35,7 @@ display-wm-i3-configure-setbackground:
 display-wm-i3-background-keycodes:
   file.prepend:
     - name: /etc/i3/config.keycodes
-    - text: "exec --no-startup-id feh --bg-scale /etc/i3/background.jpg"
+    - text: "exec --no-startup-id feh --bg-fill /etc/i3/background.jpg"
     - require:
       - file: windows-manager-i3-configure-background
       - pkg: display-wm-i3-install
