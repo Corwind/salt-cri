@@ -4,7 +4,7 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
-exec --no-startup-id feh --bg-scale /etc/i3/background.jpg
+exec --no-startup-id feh --bg-fill /etc/i3/background.jpg
 # WARNING
 # WARNING: This configuration file is a template for the i3-config-wizard to
 # WARNING: generate a config which uses keysyms in your current layout. It does
