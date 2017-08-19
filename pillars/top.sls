@@ -14,4 +14,5 @@ base:
     - pkgs.dev-ruby
     - pkgs.dev-sdl
     - pkgs.archlinux
+    - pkgs.games
 
