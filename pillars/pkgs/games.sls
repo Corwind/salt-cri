@@ -2,4 +2,4 @@ pkgs:
   - warsaw
   - teeworlds
   - openarena
-  - warsaw
+  - quake3
