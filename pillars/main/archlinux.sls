@@ -9,7 +9,7 @@ users:
       - video
 
   root:
-    password: $1$2GW70FgP$9Hwg2xHXa0wYKRBtpufFZ.
+    password: $6$VlKxjfmqc6iCjMkY$IvGeWbGm.YtFnkuA49i6iFiTRzEZHXTfFWxMNj3c0sLtWBR6jqksRJprUnVm20YXoozR9XOqUWuwLatrVibCG0
     shell: /bin/zsh
     user_files:
       enabled: True
