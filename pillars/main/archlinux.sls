@@ -15,7 +15,7 @@ users:
       enabled: True
       source: salt://files/pxe/home/root
 
-salt-minion-prefix: archlinux
+salt-minion-prefix: gcc-prologin
 
 sddm-title: "Girls Can Code!"
 sddm-footer: "build: {{ "now"|strftime("%y%m%d-%H%m") }}"
