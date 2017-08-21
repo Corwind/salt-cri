@@ -15,4 +15,4 @@ base:
     - pkgs.dev-sdl
     - pkgs.archlinux
     - pkgs.games
-
+    - pkgs.misc
