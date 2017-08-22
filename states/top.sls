@@ -12,3 +12,4 @@ base:
     - meta.pie
     - meta.xorg
     - display.wm.xfce
+    - system.gcc_usrbin
